@@ -1,7 +1,1 @@
-# Create the layout to the taskForm [x]
-
-# Apply styled-components in tsx Components [x]
-
-# Create Context to authentication step by step from the taskForm [x]
-
-# Deploy project with netlify or Vercel [x]
+# This is a little project with simple layout. I used typescript with react and styled components to create a form to developers. With the purpose to question informations in steps, and in the final step submit that informations to the recruiter, just keeping the developer data in one state, with the concept of context api.
