@@ -13,10 +13,10 @@ const employmentFreeOccupation = {
 };
 
 export const ProfissionalStep = () => {
-  const [skill1, setSkill1] = useState<boolean>(false);
-  const [skill2, setSkill2] = useState<boolean>(false);
-  const [skill3, setSkill3] = useState<boolean>(false);
-  const [skill4, setSkill4] = useState<boolean>(false);
+  const [skill1, setSkill1] = useState<boolean | string | any>(false);
+  const [skill2, setSkill2] = useState<boolean | string | any>(false);
+  const [skill3, setSkill3] = useState<boolean | string | any>(false);
+  const [skill4, setSkill4] = useState<boolean | string | any>(false);
 
   const state = UseStepValues();
   const dispatch = UseStepValues();
